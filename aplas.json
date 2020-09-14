@@ -9,24 +9,41 @@
       "categoryId": "qa",
       "applicationSize": "Small",
       "status": "Standard",
-      "condition": [
-        { "label": "fy20q1", "value": "Good" },
-        { "label": "fy20q2", "value": "Bad" },
-        { "label": "fy20q3", "value": "Bad" }
-      ],
-      "months_to_renew_support": 29,
-      "hostedtype": "SaaS",
-      "support_cost": "240",
-      "type": "OffShelf",
-      "deployment_date": "24/4/08",
-      "licensing_cost": "214",
-      "end_of_life": "27/5/20",
-      "rating": "good",
-      "investment_24m": "593",
-      "investment_number": 139,
-      "sme_email": "Hi.Hevey@memento.net.au",
+      "status_color": "#00FF00",
       "department": "Research and Development",
-      "end_of_maintenance": "18/1/18"
+      "investment_number": 139,
+      "licensing_cost": "214",
+      "sme_email": "Hi.Hevey@memento.net.au",
+      "hostedtype": "OnPremise",
+      "end_of_maintenance": "18/1/18",
+      "investment_24m": "593",
+      "months_to_renew_support": 29,
+      "deployment_date": "24/4/08",
+      "end_of_life": "27/5/20",
+      "type": "OffShelf",
+      "support_cost": "240",
+      "integrations": [
+        {
+          "id": "int-001",
+          "name": "INT-001",
+          "version": "5.57",
+          "description": "Nullam molestie nibh in lectus.",
+          "payload": "ASN Verify Transactional Data",
+          "targetApplicationId": "hyperlocal",
+          "categoryId": "mft",
+          "status": "Standard",
+          "status_color": "#00FF00",
+          "department": "Integration",
+          "sme_email": "gthompkins0@memento.net.au",
+          "sme_name": "Gilberto Thompkins",
+          "complexity": "Medium",
+          "logical_server": "BATCH",
+          "golive_date": "29/1/02",
+          "datacentre": "Dandenong",
+          "last_deployment_date": "29/5/16",
+          "pattern": "Sync Request-Reply"
+        }
+      ]
     }
   ]
 }
